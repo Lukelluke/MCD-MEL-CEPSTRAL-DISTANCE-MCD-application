@@ -73,5 +73,19 @@ In another hand, i use my personal VoiceConversion tast final result for testing
 
 15. Any question, or any improment suggestion, welcome to make issues!
 
+
+16.one more details to notice: under MCD folder, should copy all files under bin out:
+![image-20200718162036091](https://blog-1301959139.cos.ap-beijing.myqcloud.com/picGo/20200718162037.png)
+
+and then can put ur original .mgc in test_data/ref-examples/ folder, converted/synthesized .mgc in test_data/synth-examples/ folder
+🌟These two files name should be the same!
+
+modified contents in corpus.lst under test_data/ folder as : <your .mgc files name, without .mgc>
+
+
+then use cammand: ** cat test_data/corpus.lst | xargs dtw_synth test_data/ref-examples test_data/synth-examples out **
 ***
- To do , release some examples
+ ☑️ 🌟 ~~To do , release some examples~~
+ 
+ 
+ 
