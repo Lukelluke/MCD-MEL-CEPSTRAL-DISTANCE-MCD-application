@@ -5,7 +5,7 @@ Use Merlin toolkit to convert .wav files to .gcm files, and modified original MC
 1. install Merlin toolkit as https://github.com/CSTR-Edinburgh/merlin taught.(to extract some useful features like .bap/.lf0/.mgc)
 2. cd into merlin/tool , and install as new script under that file
 3. cd into merlin/tools/SPTK*3.9, follow INSTALL md taught( because we mainly use sptk toolkit to extract features)
-4. cd merlin/egs/voice_conversion/si
+4. cd merlin/egs/voice_conversion/s1
 5. ./01_setup.sh speakerA speakerB (it will mkdir to files named database/speakerA && apeakerB)
 
 ***
