@@ -55,7 +55,7 @@ Use Merlin toolkit to convert .wav files to .gcm files, and modified original MC
 up modified code is to solve reshape problem during read .mgc files data: original auther's algorithm here make me always counter with error:
 ![image-20200718155712646](https://blog-1301959139.cos.ap-beijing.myqcloud.com/picGo/20200718155714.png)
 
-11. Here my solution is pad the mean number if .mgc into source .mgc so as to make it could be % by 40 dimension.
+11. Here my solution is pad the mean number of .mgc into source .mgc so as to make it could be % by 40 dimension.
 
 12. this change work well on all kind of wav files (Notice that : Merlin only accept 16bit format of wav, you can change this parameter 
 by Audition or 'sox' toolkit)
